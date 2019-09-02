@@ -1,0 +1,248 @@
+@font-face{
+    font-family: "Lato Heavy";
+    src : url("Lato-Heavy.woff2.ttf");
+}
+
+@font-face{
+    font-family: "EkMukta ExtraBold";
+    src : url("EkMukta-ExtraBold.ttf");
+}
+
+@font-face{
+    font-family: "agfatumc bold";
+    src : url("agfatumc-bold.otf");
+}
+
+@font-face{
+    font-family: "Effra Std Rg";
+    src : url("Effra_Std_Rg.woff.ttf");
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    position: relative;
+    margin:0;
+    padding:0;
+    perspective: 1px;
+    perspective-origin: 324px 300px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.div-block{
+    width: 648px;
+    transform-style: inherit;
+}
+
+.div-block:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+
+#block1:before {
+    height: 600px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.12), 
+        rgba(0, 0, 0, 0.12)
+      ),url("http://csci571.com/hw/hw3/images/snow1.jpg");
+    background-position-x: center;
+    background-size: 138%;
+    background-repeat: no-repeat;
+    transform: translateZ(-1px) scale(2);
+}
+
+.text1{
+    font-family: "Lato Heavy";
+    padding:22px 26px 0 52px;
+    color: white;
+    font-size: 17.5px;
+    letter-spacing: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text2>div{
+    font-family: "EkMukta ExtraBold";
+    padding: 20px 11px 0 0;
+    color: white;
+    font-size: 7px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+}
+
+.text3{
+    font-family: "agfatumc bold";
+    padding: 96px 0 0 196px;
+    color: white;
+    font-size: 51px;
+    letter-spacing: 0.5px;
+}
+
+.text4{
+    font-family: "agfatumc bold";
+    padding: 0 0 0 256px;
+    color: white;
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 53.5px;
+}
+
+.text5{
+    font-family: "Effra Std Rg";
+    padding: 50px 0 23px 0;
+    margin: 0 auto;
+    width: 365px;
+    color: white;
+    word-wrap:break-word;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    text-align:center;
+}
+
+.text6{
+    font-family: "EkMukta ExtraBold";
+    margin: 0 auto;
+    width: 88px;
+    background-color: white;
+    color: black;
+    word-wrap:break-word;
+    font-size: 8px;
+    line-height: 31px;
+    letter-spacing: 1px;
+    text-align:center;
+}
+
+#block2{
+    height: 47px;
+    margin-top: 273.5px;
+    transform: translateZ(-1px) scale(2);
+    z-index: 0;
+}
+
+
+.arrow{
+	width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0 0 0 24.5px;
+    transform: rotate(134deg);
+}
+ 
+.arrow>div{
+	width: 12px;
+    height: 12px;
+    transform: skew(8deg,8deg);
+	border: solid 2px transparent;
+	border-left: 0;
+	border-bottom: 0;
+}
+
+
+#block3{
+    margin-top: -212.5px;
+    background-color: white;
+    transform: translateZ(0) scale(1);
+    position: relative;
+}
+
+.img-block{
+    padding: 48px;
+    padding-bottom: 30px;
+}
+
+.img{
+    margin: 6px;
+    height: 264px;
+    width: 264px;
+    display: inline-block;
+    background-position-x: center;
+    background-size: 150%;
+}
+
+#img2{
+    background-image: url("http://csci571.com/hw/hw3/images/snow2.jpg");
+}
+
+#img3{
+    background-image: url("http://csci571.com/hw/hw3/images/snow3.jpg");
+}
+
+#img4{
+    background-image: url("http://csci571.com/hw/hw3/images/snow4.jpg");
+}
+
+#img5{
+    background-image: url("http://csci571.com/hw/hw3/images/snow5.jpg");
+}
+
+.text7{
+    font-family: "Effra Std Rg";
+    padding: 0 0 0 36.5px;
+    margin: 0 auto;
+    width: 308px;
+    word-wrap:break-word;
+    font-size: 7.5px;
+    letter-spacing: 0.5px;
+    line-height: 14.5px;
+    color: #6e6e6e;
+}
+
+.block3-foot{
+    height: 60px;
+}
+
+#block4{
+    position: relative;
+    z-index: -1;
+}
+#block4:before{
+    height: 579.5px;
+    margin-top: 0;
+    background-image: url("http://csci571.com/hw/hw3/images/snow6.jpg");
+    background-color: white;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 159%;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+
+#block5{
+    margin-top: 227px;
+    transform: translateZ(0);
+}
+
+.text8{
+    font-family: "Effra Std Rg";
+    padding: 233px 0 247px 0;
+    margin: 0 auto;
+    width: 371px;
+    color: white;
+    word-wrap:break-word;
+    font-size: 12.5px;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    text-align:center;
+}
+
+.block5-foot{
+    background-color: white;
+    height: 287.5px;
+}
+
+
+
