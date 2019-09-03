@@ -6,9 +6,4 @@ Homework 3 for Web Technologies in Spring 2019
 * [Parallax Scrolling](http://www-scf.usc.edu/~zianwang/homework3/hw3.html)
 * [Without Parallax Scrolling](http://www-scf.usc.edu/~zianwang/homework3/homework3.html)
 ## Website Preview
-* Preview  
-
-![Preview](pic/preview.jpg)
-* Parallax Scrolling Preview  
-
 ![Parallax Scrolling Preview](pic/preview.gif)
