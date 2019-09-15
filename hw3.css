@@ -52,7 +52,7 @@ body {
     background: linear-gradient(
         rgba(0, 0, 0, 0.12), 
         rgba(0, 0, 0, 0.12)
-      ),url("http://csci571.com/hw/hw3/images/snow1.jpg");
+      ),url("snow1.jpg");
     background-position-x: center;
     background-size: 138%;
     background-repeat: no-repeat;
@@ -174,19 +174,19 @@ body {
 }
 
 #img2{
-    background-image: url("http://csci571.com/hw/hw3/images/snow2.jpg");
+    background-image: url("snow2.jpg");
 }
 
 #img3{
-    background-image: url("http://csci571.com/hw/hw3/images/snow3.jpg");
+    background-image: url("snow3.jpg");
 }
 
 #img4{
-    background-image: url("http://csci571.com/hw/hw3/images/snow4.jpg");
+    background-image: url("snow4.jpg");
 }
 
 #img5{
-    background-image: url("http://csci571.com/hw/hw3/images/snow5.jpg");
+    background-image: url("snow5.jpg");
 }
 
 .text7{
@@ -212,7 +212,7 @@ body {
 #block4:before{
     height: 579.5px;
     margin-top: 0;
-    background-image: url("http://csci571.com/hw/hw3/images/snow6.jpg");
+    background-image: url("snow6.jpg");
     background-color: white;
     background-position-x: center;
     background-repeat: no-repeat;
